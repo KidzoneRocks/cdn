@@ -1,0 +1,216 @@
+    a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+        body {
+      background-color: rgb(44,44,44);
+      font-family: 'Roboto', sans-serif;
+}
+        p {
+          text-shadow: 2px 2px 0px #383838;
+          font-size:16px;
+          color: rgb(256,256,256);
+          text-align: center;
+          
+        }
+        h1{
+           color: rgb(191,193,208,255);
+           font-size:32pt;
+           text-shadow: 4px 4px 0px #383838;
+           font-weight: bold;
+           text-align: center;
+           font-family: title; 
+    
+        }
+
+        h2{
+          color: rgb(191,193,208,255);
+          text-shadow: 1px 1px 0px #383838;
+          font-size:20px;
+          font-weight: bold;
+          text-align: center;
+        }
+      
+                  #footer{
+          text-align: center;
+          background-color: rgb(44,44,44);
+          padding: 4px 2px;
+                    margin-top: 20px;
+          }
+      
+                #icons{
+          font-size: 25px;
+          color: #FFDA20;
+          }
+      
+       #copyright:before{
+        color: 	rgb(191,193,208,255);
+         font-size:15px;
+         content: "© 2021 Kidzone.Rocks";
+      }
+      
+      #footer-links{
+        margin-top:2px;
+        color:rgb(256,256,256);
+        font-size:18px;
+        
+      }
+  
+
+
+
+.social-icons {
+ margin: 0 auto;
+  text-align: center;
+  
+  }  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:40px;
+  height:40px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.banner{
+  background-image: url("https://cdn.kidzone.rocks/background.gif");
+      background-color: rgb(47,0,102,255);
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+  
+}
+
+.slogan {
+    color: rgb(191,193,208,255);
+    font-size:16pt;
+    text-shadow: 4px 4px 0px #383838;
+    font-weight: bold;
+    text-align: center;
+}
+  
+}
+
+.ad {
+  font-size: 1pt;
+}
+
+/*Icon Fix*/
+ul {
+  padding-inline-start: 0px;
+}
+
+
+
+/* YouTube Embed */
+.video-container {
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.video-container iframe,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+.video-wrap {
+  width: 100%;
+  max-width: 850px;
+}
+
+
+ .logo {
+   
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:100pt;
+  width:100pt;
+   
+    margin: 35px auto 20px;
+   border-radius: 50%;}
+
+.ca
+{
+    text-shadow: 2px 2px 0px #383838;
+          font-size:10px;
+          color: #FFDA20;
+          text-align: center
+}
+
+#page-container {
+  position: relative;
+  min-height: 1vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer-wrap {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
+/*Dropdown*/
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: Transparent;
+  color: #FFDA20;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: Transparent;
+  outline: none;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: Transparent;
+  outline: none;
+}
+
+.page-background {
+  background-image: url("https://cdn.kidzone.rocks/background.gif");
+  opacity: .8;
+}
+
+.what-email {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+
+}
+@font-face {
+  font-family: title;
+  src: url(https://font.cdn.soy/excluded.ttf);
+}
